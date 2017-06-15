@@ -3,7 +3,7 @@
 ## Clone Repo into your home directory
 ```
 cd ~/
-git clone git@github.com:heyMP/dotfiles.git --recursive
+git clone git@github.com:cgldevel/dotfiles.git --recursive
 cd dotfiles
 bash install.sh
 ```
