@@ -25,8 +25,8 @@ ln -sf ~/dotfiles/oh-my-zsh-custom ~/dotfiles/.oh-my-zsh/custom
 
 ## Add Server Variables
 ```
-echo 'ZSH_SERVER_NAME="MYSERVER"
-ZSH_SERVER_COLOR="yellow"
+echo 'ZSH_SERVER_NAME="cgllocal"
+ZSH_SERVER_COLOR="green"
 ' > ~/.zshenv
 source ~/.zshenv
 source ~/.zshrc
