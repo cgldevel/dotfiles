@@ -65,6 +65,9 @@ source $HOME/dotfiles/zsh-custom/plugins/zsh-autosuggestions/zsh-autosuggestions
 if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
+if [ -f ~/.bash_profile ]; then
+	. ~/.bash_profile
+fi
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
