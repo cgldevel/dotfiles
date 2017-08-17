@@ -16,5 +16,8 @@
 	trustExitCode = true
 [core]
 	autocrlf = input
+	excludesfile = /Users/Chuck/.gitignore_global
 [push]
 	default = matching
+[commit]
+	template = /Users/Chuck/.stCommitMsg

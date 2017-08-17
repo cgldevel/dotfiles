@@ -136,3 +136,6 @@ bindkey '^H' backward-char
 bindkey '^L' forward-char
 bindkey '^A' beginning-of-line
 bindkey '^E' end-of-line
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
